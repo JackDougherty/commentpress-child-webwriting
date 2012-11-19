@@ -1,0 +1,39 @@
+#book_header{top:auto!important;border-bottom:0}
+#header{top:67px!important}
+#book_nav ul#minimiser_trigger{display:none}
+
+#book_header{background:#666666!important}
+#footer{background:#ffffff}
+body,body#main_blog{background:#666666}
+
+#book_nav {border-bottom: 2px solid #B5BFB2}
+
+#page_wrapper {border: 5px solid #999999}
+li.sidebar_header{border-color:#999999 #999999 -moz-use-text-color}
+.sidebar_minimiser{border:3px solid #999999}
+#footer{border:5px solid #999999}
+#footer p{font-family:'Trebuchet MS',Helvetica,Arial,sans-serif;font-size:.8em;color:#666666}
+#footer_inner p a {color: #666666;text-decoration: underline}
+
+#title h1,#title h1 a,.post h1,.post h2,.post h3,.post h4,.post h5,.post h6,body.settings #content h3,body.settings.my-account #content h3,body.settings.general #content h3,body.directory.logged-in #content form.dir-form h3,body.directory #content form.dir-form h3,body.create-blog #content h3,body.registration #content h2,body.activation.activate #content h2,body.activate #content h3,body.directory.logged-in #content h3,body.directory #content h3,body.group-create #content form.standard-form>h3,#register-page #signup_form h2,div#item-header h2,ul#member-list h5,ul#admins-list h5,ul#mods-list h5,ul#members-list h5,span.highlight,.item-title a,div#message-thread strong a{font-family:'Lucida Sans Unicode','Lucida Grande',Arial,sans-serif}
+body.registration #content h4,body.group-create #group-create-body h2,body.group-create #group-create-body h3,body.directory.logged-in #content h4,body.group-create #content h4,body.group-admin #group-create-body h2,body.group-admin #group-create-body h3,body.group-admin #content h4,body.group-admin #content h3,body.group-admin #content h2,body#main_blog div#item-header div#item-actions h3,.profile h4,h3.activity-subscription-settings-title{font-family:'Lucida Sans Unicode','Lucida Grande',Arial,sans-serif}
+#book_header #tagline,body#main_blog div#item-header div#item-meta{font-family:'Trebuchet MS',Helvetica,Arial,sans-serif}
+#book_header #tagline{font-style:normal;font-size:1em;color:#999}
+.post h2.post_title{font-size:1.4em;}
+body#main_blog #content div#item-header h2{font-size:1.6em;margin:0}
+button,a.button,input[type="submit"],input[type="button"],input[type="reset"],ul.button-nav li a,div.generic-button a{color:#777;text-transform:none}
+body#main_blog form.dir-form,body#main_blog div.item-list-tabs,body#main_blog form#whats-new-form,body#main_blog .home-page form#whats-new-form,body.directory #content h3,body.group-create #content form.standard-form>h3,#register-page #signup_form h2,body.activation.activate #content h2,body.activation.activate #content h3,div#item-header,#content div.item-list-tabs#object-nav{background:#FC0}
+#user_links ul li a,#user_links ul li a:link,#user_links ul li a:hover,#user_links ul li a:visited{background:#ddd}
+#user_links ul li a,#user_links ul li a:link,#user_links ul li a:visited{color:#666}
+#user_links ul li a:hover{color:#222}
+body#main_blog div.item-list-tabs#subnav{background:#fff}
+body#main_blog #item-body form#whats-new-form{background-color:#eee}
+body#main_blog div#item-header div#item-meta{font-size:1.4em;line-height:1.2;color:#fff}
+ul.item-list li{border-bottom:1px solid #b5bfb2}
+ul.item-list.activity-list>li{padding-left:14px;border-left:10px solid #FC0;margin-top:1px;margin-bottom:1px}
+ul.item-list.activity-list li.load-more{padding-left:0;border-left:0}
+body.group-home ul.item-list.activity-list>li{border-left:none}
+#activity_sidebar li.groups{border-left:10px solid #FC0;margin-bottom:1px}
+
+.single-item #content.groupblog .group-subscription-div a{color:#fff}
+.single-item #content.groupblog.groupblogtype-0 .group-subscription-div a,.single-item #content.groupblog.groupblogtype-1 .group-subscription-div a,.single-item #content.groupblog.groupblogtype-2 .group-subscription-div a{color:#ccc}
