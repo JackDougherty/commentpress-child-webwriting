@@ -128,7 +128,7 @@ global $post;
 		</div>
 	<?php }
 	
-	?><p>By clicking the submit button, I agree to freely share my comment, with my full name, under the Creative Commons license for this site.</p>
+	?><p>By clicking the submit button, I retain the copyright for my comment, but agree to freely share it under the Creative Commons license for this site.</p>
 
 	<p id="respond_button"><input name="submit" type="submit" id="submit" value="Submit Comment" /></p>
 
