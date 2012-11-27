@@ -13,6 +13,7 @@ li.sidebar_header{border-color:#999999 #999999 -moz-use-text-color}
 
 .post a {color: #21759B;text-decoration: underline}
 .post h2.post_title {font-size:1.6em}
+#content .search_result h3 {font-size: 1.6em}
 
 #footer{border:5px solid #999999; background:#ffffff; font-family:'Trebuchet MS',Helvetica,Arial,sans-serif;font-size:.8em;color:#000000}
 #footer a {color: #21759B;text-decoration: underline}
