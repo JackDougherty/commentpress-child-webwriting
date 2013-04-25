@@ -120,8 +120,3 @@ function cpnavbelow_sidebar_tab_order( $order ) {
 // add a filter for the above
 add_filter( 'cp_sidebar_tab_order', 'cpnavbelow_sidebar_tab_order', 21, 1 );
 
-
-
-
-
-
