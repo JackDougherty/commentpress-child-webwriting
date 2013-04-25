@@ -2,7 +2,7 @@
 ================================================================================
 CommentPress Theme Comment Form
 ================================================================================
-AUTHOR: Christian Wach <needle@haystack.co.uk>
+AUTHOR: Christian Wach <needle@haystack.co.uk>, modified by Jack Dougherty
 --------------------------------------------------------------------------------
 NOTES
 
@@ -68,7 +68,7 @@ global $post;
 		<?php else : ?>
 		
 			<p>
-			<label for="author"><small>Full name (no anonymous comments)
+			<label for="author"><small>Your FULL name (no anonymous comments)
 		    <?php if ($req) echo ' <span class="req">(required)</span>'; ?>
 			</small></label><br />
 			<input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="30"<?php if ($req) echo ' aria-required="true"'; ?> /></p>
@@ -77,7 +77,7 @@ global $post;
 			<input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="30"<?php if ($req) { echo ' aria-required="true"'; } ?> /></p>
 			
 			<p class="author_not_logged_in">
-			  <label for="url"><small>Your personal website (optional; for others to learn about you)</small></label><br />
+			  <label for="url"><small>Your personal website (optional - for others to learn about you)</small></label><br />
 			<input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="30" /></p>
 		
 		<?php endif; ?>
@@ -128,7 +128,7 @@ global $post;
 		</div>
 	<?php }
 	
-	?><p>By clicking the submit button, I retain the copyright for my comment, but agree to freely share it under the Creative Commons license for this site.</p>
+	?><p>By clicking the submit button, I retain the copyright for my comment, but agree to publicly share it under the Creative Commons license for this site. Anonymous comments and inappropriate language will be removed.</p>
 
 	<p id="respond_button"><input name="submit" type="submit" id="submit" value="Submit Comment" /></p>
 
