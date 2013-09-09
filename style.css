@@ -3,10 +3,10 @@ Theme Name: CommentPress Core - Child Theme - WebWriting
 Theme URI: http://WebWriting.trincoll.edu
 Description: <strong>Modified child theme for CommentPress Core.</strong> <em>Important note for Multisite:</em> if you want to use this theme <em>without network-activating CommentPress Core</em> then you will need to network-activate this theme despite it appearing in the "Broken" themes section of your Network Admin. To do so, you need to use the "Bulk Actions" dropdown. It will then appear as an available theme only on blogs that have CommentPress Core enabled. If you <em>have network-enabled CommentPress Core</em>, then this theme will appear as normal.
 Tags: commentpress, buddypress, groupblog, two-columns, sticky-post, threaded-comments, paragraph-comments
-Version: 3.4
+Version: 3.5
 Template: commentpress-theme
-Author: Christian Wach; modified by Jack Dougherty, last updated 24 April 2013
-Author URI: http://commons.trincoll.edu/jackdougherty
+Author: Christian Wach; modified by Jack Dougherty, last updated 9 Sept 2013
+Author URI: http://github.com/jackdougherty
 */
 
 /* deliberately empty: see 'functions.php' for how styles and scripts are enqueued */

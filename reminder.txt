@@ -1,2 +1,0 @@
-Reminder - as of April 24, 2013, the modified comment_form.php must be manually uploaded to CP core,
-since not yet functional in the child-theme.

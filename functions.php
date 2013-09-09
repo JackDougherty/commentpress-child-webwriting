@@ -120,3 +120,19 @@ function cpnavbelow_sidebar_tab_order( $order ) {
 // add a filter for the above
 add_filter( 'cp_sidebar_tab_order', 'cpnavbelow_sidebar_tab_order', 21, 1 );
 
+
+/** 
+ * @description: override comment_form template by intercepting value
+ * @todo: 
+ *
+ */
+function cpnavbelow_template_comment_form() {
+	
+	// --<
+	return get_stylesheet_directory() . '/assets/templates/comment_form.php';
+
+}
+
+// add a filter for the above
+add_filter(	'cp_template_comment_form', 'cpnavbelow_template_comment_form' );
+
