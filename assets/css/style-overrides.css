@@ -42,3 +42,13 @@ body.group-home ul.item-list.activity-list>li{border-left:none}
 
 .single-item #content.groupblog .group-subscription-div a{color:#fff}
 .single-item #content.groupblog.groupblogtype-0 .group-subscription-div a,.single-item #content.groupblog.groupblogtype-1 .group-subscription-div a,.single-item #content.groupblog.groupblogtype-2 .group-subscription-div a{color:#ccc}
+
+@media print {
+	#header #title,
+	#header #title a
+	{
+		text-indent: 0; 
+		height: auto;
+		color: #000000;
+	}
+}
